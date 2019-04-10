@@ -1,0 +1,1 @@
+    $('slider-in-header').slick();
