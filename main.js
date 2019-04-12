@@ -1,1 +1,3 @@
-    $('slider-in-header').slick();
+$(document).ready(function(){
+    $('.slider-in-header').slick();
+});
