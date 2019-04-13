@@ -525,6 +525,7 @@ line-height: 1.6;
     position: relative;
     z-index: 1;
     transition: all .5s ease;
+    cursor: pointer;
 }
 .latest-card-head::before{
     position: absolute;
@@ -536,10 +537,10 @@ line-height: 1.6;
     bottom: -100%;
     left: 0;
     transition:all .5s ease;
-    z-index: -1;
 }
 .latest-card-head:hover::before{
     bottom: 0;
+    z-index: 2;
 }
 
 .latest-card-footer{
@@ -574,6 +575,10 @@ line-height: 1.6;
     font-size: 25px;
     display: none;
 }
+.latest-card-head:hover .fa-link{
+    display: block;
+    z-index: 3;
+}
 .fa-search-location{
     position: absolute;
     top: 50%;
@@ -583,6 +588,26 @@ line-height: 1.6;
     font-size: 25px;
     display: none;
 }
-
+.latest-card-head:hover .fa-search-location{
+    display: block;
+    z-index: 3;
+}
+.latest-card:hover .latest-card-footer{
+    background-color: black;
+}
+.latest-card:hover .latest-card-footer h1{
+    color: goldenrod;
+    transition: all .2s ease;
+}
+.latest-card:hover .latest-card-footer p{
+    color: white;
+}
+.latest-footer-button{
+    width: 100%;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 
 
