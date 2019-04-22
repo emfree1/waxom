@@ -4,10 +4,9 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
         dots:true
     });
-});
 
-$(document).ready(function() {
-    $('.popup-youtube').magnificPopup({
+
+     $('.popup-youtube').magnificPopup({
      disableOn: 700,
      type: 'iframe',
      mainClass: 'mfp-fade',
@@ -16,4 +15,10 @@ $(document).ready(function() {
    
      fixedContentPos: false
     });
-   });
+
+
+
+});
+
+
+   
