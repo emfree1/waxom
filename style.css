@@ -1193,8 +1193,7 @@ line-height: 1.6;
 }
 .footer-bottom-line{
     width: 2px;
-    height: 16%;
-    background-color: #555555;
+    background-color: #dbdbdb;
     margin-left: 10px;
 }
 .privacy{
@@ -1238,5 +1237,12 @@ line-height: 1.6;
 .evanto span{
     color: #c4c4c4;
 }
-
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 60%;
+    margin: 20px auto;
+}
 
