@@ -1,0 +1,692 @@
+.dws-menu [type="checkbox"]{
+    display: none;
+}
+.dws-menu label.toggle-submenu{
+    display: none;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.mobile-menu{
+    display: none;
+}
+.slider-img{
+    height: 657px;
+}
+.h-text{
+    font-size: 42px;
+    top: 42%;
+}
+.p-text{
+    font-size: 13px;
+}
+.button-button{
+    top: 65%;
+}
+.slick-dots{
+    bottom: 19px;
+}
+.service{
+    height: 270px;
+}
+.service-block i{
+    font-size: 47px;
+}
+.service-block h1{
+    font-size: 20px;
+}
+.service-block p{
+    font-size: 12px;
+}
+.waxom{
+    height: 760px;
+}
+.waxom-h1{
+    font-size: 27px;
+    padding-top: 37px;
+}
+.waxom-p{
+    font-size: 14px;
+    top: 109px;
+}
+.waxom-img3{
+    left: 113px;
+}
+.waxom-text-boxes{
+    height: 113px;
+    bottom: 5px;
+}
+.text-boxes-h1{
+    font-size: 25px;
+}
+.button-box{
+    height: 44px;
+    font-size: 12px;
+}
+.video-content-conteiner{
+    height: 175px;
+}
+.device-block-h1{
+    font-size: 26px;
+}
+.device-block-p{
+    font-size: 14px;
+}
+.device-li{
+    font-size: 14px;
+}
+.counter{
+    height: 230px;
+}
+.counter-block-content i{
+    font-size: 37px;
+}
+.counter-block-nubmer{
+    font-size: 37px;
+}
+.counter-block-text{
+    font-size: 12px;
+}
+.recent-card{
+    margin-bottom: 20px;
+}
+.partners{
+    height: 266px;
+}
+.waxom-logo-block-text{
+    font-size: 30px;
+    margin-top: 0px;
+}
+.footer-recent-post{
+    font-size: 20px;
+}
+.footer-recent-post3{
+    font-size: 20px;
+}
+.dribbble-img1{
+    margin-left: 14px;
+    width: 110px;
+}
+.dribbble-img2{
+    margin-left: 131px;
+    width: 110px;
+}
+.dribbble-img3{
+    margin-top: 99px;
+    margin-left: 14px;
+    width: 110px;
+}
+.dribbble-img4{
+    margin-left: 131px;
+    margin-top: 99px;
+    width: 110px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.mobile-menu{
+    display: none;
+}
+.text-logo{
+    font-size: 22px;
+}
+.dws-menu > ul li a{
+    font-size: 12px;
+}
+.fa-shopping-bag{
+    padding-left: 5px;
+}
+.header-text{
+    font-size: 29px;
+}
+.h-text{
+    font-size: 32px;
+}
+.p-text{
+    font-size: 10px;
+}
+.service{
+    height: 223px;
+}
+.service-block i{
+    font-size: 43px;
+}
+.service-block h1{
+    font-size: 18px;
+}
+.service-block p{
+    font-size: 9px;
+}
+.waxom{
+    height: 607px;
+}
+.waxom-h1{
+    font-size: 23px;
+    padding-top: 32px;
+}
+.waxom-p{
+    font-size: 11px;
+    top: 95px;
+}
+
+.waxom-img{
+    top: 52%;
+    width: 600px;
+}
+.waxom-img2{
+    width: 500px;
+    top: 1%;
+    right: 18%;
+}
+.waxom-img3{
+    width: 500px;
+    left: 16.8%;
+    bottom: 48%;
+}
+.waxom-text-boxes{
+    height: 110px;
+    bottom: 0%
+}
+.latest-projects-wrapper{
+    width: 100%;
+    height: 207px;
+}
+.latest-projects-h1{
+    font-size: 27px;
+}
+.latest-projects-p{
+    font-size: 14px;
+}
+.video-content-conteiner{
+    height: 146px;
+}
+.device-block{
+    height: 500px;
+}
+.device-block-img{
+    width: 276px;
+    left: 5%;
+    top: 23%;
+}
+.device-block-h1{
+    font-size: 23px;
+    margin-right: 204px;
+}
+.device-block-p{
+    font-size: 12px;
+    margin-right: 13px;
+}
+.device-li{
+    font-size: 11px;
+}
+.counter{
+    height: 175px;
+}
+.counter-block-content i{
+    font-size: 30px;
+}
+.counter-block-nubmer{
+    font-size: 23px;
+}
+.counter-block-text{
+    font-size: 11px;
+}
+.recent-block-h1{
+    font-size: 25px;
+}
+.recent-block-p{
+    font-size: 13px;
+}
+.partners-img img{
+    width: 180px;
+    height: 180px;
+}
+.waxom-logo-block img{
+    width: 56px;
+    height: 67px;
+}
+.waxom-logo-block-text{
+    font-size: 24px
+}
+.footer-block-text{
+    font-size: 12px;
+}
+.waxom-block-img{
+    font-size: 12px;
+}
+.footer-recent-post{
+    font-size: 17px;
+}
+.data1{
+    font-size: 10px;
+}
+.data1-text{
+    font-size: 13px;
+}
+.footer-recent-post3{
+    font-size: 17px;
+}
+.dribbble-img1{
+    margin-left: 14px;
+    width: 80px;
+}
+.dribbble-img2{
+    margin-left: 100px;
+    width: 80px;
+}
+.dribbble-img3{
+    margin-top: 77px;
+    margin-left: 14px;
+    width: 80px
+}
+.dribbble-img4{
+    margin-left: 100px;
+    margin-top: 77px;
+    width: 80px;
+}
+.twitter-text{
+    font-size: 13px;
+}
+.footer-bottom-left span{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+.footer-bottom-container-right span{
+    font-size: 10px;
+}
+.footer{
+    height: 568px;
+}
+.footer-bottom{
+    height: 59px;
+}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+}
+.dws-menu{
+    display: none;
+}
+.nav-menu{
+    justify-content: space-evenly;
+}
+.mobile-menu{
+    display: block;
+}
+.menu{
+    flex-direction: column;
+    position: absolute;
+}
+.dws-menu ul{
+    width: 100%;
+    left: 0;
+    margin-top: 50px;
+}
+.dws-menu ul li{
+    background: black;
+}
+.dws-menu ul li a{
+    margin-left: 10px;
+}
+.header-text{
+    font-size: 14px;
+    top: 46%;
+}
+.h-text{
+    font-size: 16px;
+    top: 49%;
+}
+.p-text{
+    font-size: 5px;
+    top: 54%;
+}
+.button-button{
+    height: 35px;
+    font-size: 10px;
+    top: 61%;
+}
+.service{
+    height: 100%;
+}
+.conteiner{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.service-block{
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    height: 25%;
+}
+.service-block i{
+    font-size: 55px;
+}
+.service-block p{
+    font-size: 14px;
+}
+.waxom{
+    height: 550px;
+}
+.waxom-h1{
+    font-size: 21px;
+}
+.waxom-img{
+    top: 23%;
+    width: 300px;
+}
+.waxom-img2{
+    width: 250px;
+    top: -5%;
+    right: 18%;
+}
+.waxom-img3{
+    width: 250px;
+    left: 16%;
+    bottom: 32%;
+}
+.waxom-text-boxes{
+    height: 170px;
+    bottom: 4%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.text-boxes-h1{
+    font-size: 18px;
+}
+.button-boxes{
+    width: 29%;
+}
+.button-box{
+    height: 48px;
+    font-size: 11px;
+}
+.latest-projects-h1{
+    font-size: 25px;
+}
+.latest-projects-p {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.latest-buttoms button{
+    margin: 5px 0px 10px 10px;
+}
+.video-button-border{
+    width: 55px;
+    height: 55px;
+}
+.text-conteiner-h1{
+    font-size: 22px;
+}
+.text-conteiner-p{
+    font-size: 10px;
+}
+.video-text-content{
+    height: 212px;
+}
+.device-block-h1{
+    font-size: 20px;
+    margin: 0;
+}
+.device-block{
+    height: 400px;
+}
+.device-block-top{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.device-block-p {
+    font-size: 10px;
+}
+.ul-li{
+    margin: 0;
+}
+.device-li{
+    font-size: 8px;
+    color: black;
+}
+.ico{
+    line-height: 2;
+}
+.device-block-img{
+    width: 150px;
+    left: 2%;
+    top: 48%;
+}
+.counter{
+    height: 166px;
+}
+.counter-block-content i{
+    font-size: 25px;
+}
+.counter-block-nubmer{
+    font-size: 18px;
+}
+.counter-block-text{
+    font-size: 8px;
+}
+.recent-block-p{
+    font-size: 12px;
+}
+.partners-img img{
+    width: 100px;
+}
+.partners{
+    height: 232px;
+}
+.footer{
+    height: 1160px;
+}
+.footer-top{
+    height: 1100px;
+}
+.footer-container{
+    flex-direction: column;
+}
+.footer-block{
+    width: 100%;
+    align-items: center;
+}
+.waxom-logo-block{
+    justify-content: center;
+    align-items: center;
+}
+.footer-block-text{
+    font-size: 13px;
+}
+.dribbble-img{
+    height: 158px;
+}
+.dribbble-img1{
+    margin: 0;
+    width: 80px;
+    left: 32%;
+}
+.dribbble-img2{
+    margin: 0;
+    width: 80px;
+    left: 51%;
+}
+.dribbble-img3{
+    margin: 0;
+    top: 47%;
+    left: 32%;
+}
+.dribbble-img4{
+    top: 47%;
+    margin: 0;
+    left: 51%;
+}
+.footer-bottom{
+    height: 135px;
+}
+.footer-bottom-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-bottom-container-left{
+    width: 90%;
+}
+.footer-bottom-left{
+    display: flex;
+    width: 90%;
+    height: auto;
+    justify-content: flex-start;
+    margin-bottom: 20px
+}
+.footer-bottom-container-right{
+    width: 56%;
+}
+.footer-bottom-container-right span{
+    font-size: 13px;
+}
+.footer-bottom-left span{
+    font-size: 13px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.logo img{
+    width: 37px;
+}
+.menu-toggle{
+    width: 29px;
+    height: 29px;
+}
+.text-logo{
+    font-size: 19px;
+}
+.search i{
+    font-size: 25px;
+}
+.slick-prev{
+    transform: translate(-44%, -50%);
+
+}
+.slick-next{
+    transform: translate(32%, -50%);
+}
+.header-text{
+    font-size: 11px;
+    top: 47%;
+}
+.h-text{
+    font-size: 12px;
+    top: 50%;
+}
+.p-text{
+    font-size: 4px;
+    top: 54%;
+}
+.button-button{
+    height: 32px;
+    font-size: 8px;
+    top: 60%;
+}
+.slider-img{
+    height: 667px;
+}
+.partners-img img{
+    width: 70px;
+}
+.dribbble-img1{
+    left: 28%;
+}
+.dribbble-img2{
+    left: 54%;
+}
+.dribbble-img3{
+    left: 28%;
+}
+.dribbble-img4{
+    left: 54%;
+}
+.footer-bottom-container-left{
+    width: 100%;
+}
+.footer-bottom-container-right{
+    width: 91%;
+}
+.device-block-p{
+    margin-left: 20px;
+    font-size: 7px;
+    text-align: center;
+}
+.device-block-h1{
+    font-size: 18px;
+}
+.device-block{
+    height: 307px;
+}
+.device-block-img{
+    left: 2%;
+    top: 55%;
+    width: 100px;
+}
+.device-block-bottom ul li {
+    padding: 0;
+    margin: 0;
+    padding-inline-start: 62px;
+}
+.device li{
+    font-size: 6px;
+}
+.ico{
+    line-height: 2;
+    margin-right: 10px;
+    width: 19px;
+    height: 19px; 
+}
+.waxom-h1{
+    text-align: center;
+}
+.latest-projects-p{
+    font-size: 9px;
+    margin-bottom: 34px;
+}
+.latest-buttoms button{
+    margin: 0px 0px 10px 10px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.header-text{
+    font-size: 10px;
+    top: 39%;
+}
+.h-text{
+    top: 42%;
+}
+.p-text{
+    top: 46%;
+}
+.button-button{
+    top: 52%;
+}
+.slider-img{
+    height: 568px;
+}
+}

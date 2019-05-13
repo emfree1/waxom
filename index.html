@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="magnific-popup.css">
     <link rel="stylesheet" href="popap.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <title>Document</title>
 </head>
 <body>
@@ -22,7 +23,10 @@
                 </div>
                 <nav class="dws-menu">
                     <ul class="menu">
-                        <li><a href="">Home</a>
+                        <li>
+                            <input type="checkbox" name="toggle" id="toggle-submenu" class="sub-m1">
+                            <a href="#">Home</a>
+                            <label for="sub-m1" class="toggle-submenu"></label>
                             <ul class="sabmenu">
                                 <li><a href="#">Portfolio</a></li>
                                 <li><a href="#">Portfolio1</a>
@@ -50,6 +54,19 @@
                 
                 
                 </nav>
+               <div class="mobile-menu">
+                    <div class="menu-toggle">
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="cross">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+               </div>
                 <div class="search">
                         <i class="fas fa-shopping-bag"></i>
                         <i class="fas fa-search"></i>
@@ -254,7 +271,6 @@
                                             <img src="img/play.png" alt="button-play">
                                         </a>
                                     </div>
-            
                                 </div>
                             </div>
                     </div>
